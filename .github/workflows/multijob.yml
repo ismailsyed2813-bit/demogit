@@ -6,3 +6,9 @@ jobs:
     steps:
      - name: print hello world
        run: echo "this is build job"
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+     - name: print hello world
+       run: echo "this is test job"
